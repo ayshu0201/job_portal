@@ -46,4 +46,4 @@ for li in jobs:
 df=pd.DataFrame(job)
 
 df.to_csv("jobs.csv",index=False)
-print("successfully")
+print("completed successfully")
